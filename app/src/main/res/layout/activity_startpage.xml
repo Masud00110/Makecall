@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".startpage">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/main" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#10B617"
+        android:fontFamily="times"
+        android:layout_height="wrap_content"
+        android:text="Smart Shat Buy" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#007065"
+        android:layout_width="200dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:fontFamily="times"
+        android:layout_height="wrap_content"
+        android:text="Get Start" />
+</LinearLayout>

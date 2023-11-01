@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".product_description">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/shart1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#10B617"
+        android:fontFamily="times"
+        android:layout_height="wrap_content"
+        android:text="Casual Shirts" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        android:fontFamily="times"
+        android:text="Turndown Collar Double Breasted Long Sleeve Shirt - Red - 3V25808322 Size L
+
+Shirts Type: Casual Shirts Material: Cotton,Polyester Sleeve Length: Full Collar: Turndown Collar Pattern Type: Solid Weight: 0.219 kg Package Contents: 1 x Shirt Size chartOur SizeFit US SizeLengthSleeve" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="40dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:backgroundTint="#009688"
+        android:fontFamily="times"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:onClick="call"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:text="Call for Buy" />
+</LinearLayout>
